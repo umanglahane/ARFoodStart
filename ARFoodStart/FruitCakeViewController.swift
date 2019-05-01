@@ -21,7 +21,7 @@ class FruitCakeViewController: UIViewController, ARSCNViewDelegate {
 		let scene = SCNScene()
 		sceneView.scene = scene
 		sceneView.delegate = self
-		sceneView.showsStatistics = true
+		sceneView.showsStatistics = false
 		
 		// Gestures
 		let tapGesure = UITapGestureRecognizer(target: self, action: #selector(handleTap))
